@@ -1,7 +1,7 @@
 package s1.lab2;//package s1.lab2;
 
 import s1.lab2.invoice.InvoiceCalculator;
-import s1.lab2.invoice.InvoiceData;
+import s1.lab2.model.InvoiceData;
 import s1.lab2.invoice.InvoiceFormatter;
 import s1.lab2.invoice.InvoiceService;
 

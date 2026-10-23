@@ -1,5 +1,8 @@
 package s1.lab2.invoice;
 
+import s1.lab2.model.InvoiceData;
+import s1.lab2.model.InvoiceItem;
+
 public class InvoiceFormatter {
 
 

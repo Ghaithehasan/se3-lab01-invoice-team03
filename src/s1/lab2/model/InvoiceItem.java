@@ -1,4 +1,4 @@
-package s1.lab2.invoice;
+package s1.lab2.model;
 
 public class InvoiceItem {
 

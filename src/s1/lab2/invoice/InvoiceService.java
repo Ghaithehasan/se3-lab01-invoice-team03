@@ -1,5 +1,7 @@
 package s1.lab2.invoice;
 
+import s1.lab2.model.InvoiceData;
+
 import s1.lab2.messagesender.Sender;
 import s1.lab2.storage.Storage;
 
@@ -48,14 +50,15 @@ public class InvoiceService {
 
 
     public String sendInvoice(InvoiceData invoiceData) {
-        double total = invoiceCalculator.calculateTotal(invoiceData);
+//        double total = invoiceCalculator.calculateTotal(invoiceData);
+//
+//        String formattedInvoice =
+//                invoiceFormatter.formatInvoice(invoiceData, total);
+//
+//        // Preserve the behavior of the old version:
+//        // sending also prints the invoice first.
 
-        String formattedInvoice =
-                invoiceFormatter.formatInvoice(invoiceData, total);
-
-        // Preserve the behavior of the old version:
-        // sending also prints the invoice first.
-        System.out.print(formattedInvoice);
+        String formattedInvoice = printInvoice(invoiceData);
 
         return sender.send(invoiceData, formattedInvoice);
     }

@@ -1,7 +1,8 @@
-package s1.lab2.invoice;
+package s1.lab2.model;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class InvoiceData {
@@ -29,6 +30,6 @@ public class InvoiceData {
     }
 
     public List<InvoiceItem> getItems() {
-        return items;
+        return Collections.unmodifiableList(items);
     }
 }

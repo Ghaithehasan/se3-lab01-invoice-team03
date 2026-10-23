@@ -1,6 +1,6 @@
 package s1.lab2.storage;
 
-import s1.lab2.invoice.InvoiceData;
+import s1.lab2.model.InvoiceData;
 
 import java.util.ArrayList;
 import java.util.Collections;
