@@ -24,7 +24,6 @@ public class Invoice
     public void addItem(String name,double price,int qty)
     {
         this.items.add(new InvoiceItem(name , price , qty));
-
     }
 
 
